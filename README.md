@@ -16,8 +16,10 @@ Antingen laddar du hem filerna manuellt eller så klonar du.
 2.- Med t.ex. git bash går du in i den skapade mappen  
 3.- Skriv in raden under i git bash för att klona sidan till din mapp.  
 >> git clone https://github.com/Tjacke/kmom10_T-MVC.git 
+  
+4.- Mappen med namn ".git" behöver inte laddas upp  
+5.- Ladda sedan upp filerna som ligger i mappen kmom10_T-MVC till roten på ditt hotell / host  
 
-4.- Ladda sedan upp filerna som ligger i mappen kmom10_T-MVC till roten på ditt hotell / host  
 
   
 2.-Gör databasinställningar 
