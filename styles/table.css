@@ -1,0 +1,21 @@
+/* 
+    Document   : form
+    Created on : 2013-apr-16, 13:19:57
+    Author     : Håkan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table{
+    font-size: 0.9em;
+    width: 100%;
+    }
+    
+table td {
+    padding: 3px;
+}
+table th {
+    padding: 3px;
+    font-weight: bold;
+    background: #99ccff;
+}

@@ -1,0 +1,55 @@
+/*------------------------------------*\
+  Head Navigation Style
+\*------------------------------------*/
+
+.headline{
+    padding: 15px 0 0 15px; 
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background-color: #fff;
+   /*  background-image:url("../images/tr95_w.png"); */
+   /*   background-image:url("../images/tr50_bw.png"); */
+   
+}
+.page_border{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    background-image:url("../images/36_1_gw.png");
+    width:  100%;
+    height: 35px;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+#nav a{
+    float: left;
+    display: block;
+    height: 29px;
+    padding: 6px 10px 0;
+    border-right: 1px solid #888;
+}
+#nav a:hover{
+    background: #eee;
+    padding: 6px 10px 0;
+    text-decoration: none;
+    color: #f93;
+    border-right: 1px solid #888;
+}
+
+
+#head_img{
+     /*background-image:url("../images/logo.png");     
+    background-repeat: no-repeat;
+    background-position: 20px 5px;
+   
+    width: 960px;
+    margin: 0 auto;*/
+
+}
+

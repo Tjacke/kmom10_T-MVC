@@ -1,0 +1,72 @@
+/* 
+    Document   : form
+    Created on : 2013-apr-16, 13:19:57
+    Author     : Håkan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.blogg_link{
+    margin-left: 10px;
+    color: #000;
+}
+.border{
+    outline: 1px solid #000;
+   
+}
+
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px auto;
+	width: 960px;
+	border: 1px solid #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+}
+#content{
+   /* background-image:url("../images/tr95_w.png"); */
+     
+}
+#content > p:first-of-type {
+  font-size: 1.125em;
+    /* 18px → 18 ÷ 16 = 1.125 */
+
+  line-height: 1.333em;
+    /* 24px → 24 ÷ 18 = 1.3333(3) */
+}
+.Admin_menu{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+#left_menu{
+    padding: 0;
+}
+
+#logo_pre{
+    background: #FFF;
+    border:1px solid #333;
+    text-align: center;
+    width: 438px;
+    padding: 10px;
+    margin: 15px 0;
+    -webkit-box-shadow: 0 0 8px #000;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#logo_pre img{
+    
+    width: 90%;
+    
+}
+

@@ -1,0 +1,128 @@
+/* 
+    Document   : form
+    Created on : 2013-apr-16, 13:19:57
+    Author     : Håkan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.form_error p{
+	color: #f00;
+	padding: 5px;
+	margin: 10px 0;
+	width: 85%;
+	background-color: #00004C;
+	border: 1px solid black;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.gb_mess {
+    width: 400px;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border: 1px solid #888;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#guestbook_message {
+	display: block;
+	float: left;
+	border: 1px solid white;
+	margin: 0 15px;
+	padding: 1em;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+/* 
+	******************
+    guestbook - view_guestbook
+	******************
+*/
+#form{
+    
+    background-color: #F9F9F9;
+	display: block;
+    margin-bottom: 24px;
+    padding: 20px;
+	width: 418px;       
+	border: 1px solid #CCC;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#form label {
+	font-weight: bold;
+	display: block;
+	margin: 0.5em 0 0.3em 0;
+}
+
+#form input[type=text]{
+	background:#f0f0f0;
+	display: block;
+	margin: 0 0 1em 0;
+	width: 375px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 6px;
+}
+#form .dropdown{
+	background:#f0f0f0;
+	display: block;
+	margin: 0 0 1em 0;
+	width: 375px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 6px;
+}{
+	background:#f0f0f0;
+	display: block;
+	margin: 0 0 1em 0;
+	width: 100px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 6px;
+}
+#form input[type=password]{
+	background:#f0f0f0;
+	display: block;
+	margin: 0 0 1em 0;
+	width: 375px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 6px;
+}
+#form textarea {
+	background:#f0f0f0;
+	display: block;
+	margin: 0 0 1em 0;
+	width: 375px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #CCC;
+	padding: 6px;
+}
+#form input[type=submit], form a {
+	font-family: Arial, sans-serif;
+    border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: white;
+	background: #800000;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+}
+
+#form input[type=submit]:hover, form a:hover{
+    text-decoration: none;
+	background: #730000;
+	cursor: pointer;
+}
+
+

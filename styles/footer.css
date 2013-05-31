@@ -1,0 +1,25 @@
+/*------------------------------------*\
+  Footer Style
+\*------------------------------------*/
+
+#footer{background-image:url("../images/tr80_b.png"); 
+    width: 100%;
+    text-align: center;
+   
+
+}
+#in_footer{
+    background-image:url("../images/tr80_b.png"); 
+    width: 960px;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-top: 1px solid #bbb;
+    
+}
+#dev_footer{
+    background: #BBB;
+    text-align: center;
+    padding: 24px 0;
+    margin: 0 auto;
+    border: 1px solid #bbb;
+}
