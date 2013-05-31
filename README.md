@@ -53,7 +53,6 @@ Det är viktigt för att sidan ska kunna skicka mail från servern när medlemma
 medlemsskap.  
 
 
-
 3.-Ändra i .htaccess filen
 --------------------------
 Du hittar filen i rooten. Du ska se application mappen:  
@@ -74,7 +73,14 @@ och sparar över den som följer med.
 Vill du byta namn på favicon kan du göra det i filen: "header.php"  
 Sökvägen till filen: application->views->includes->header.php  
 
-5.-Klart att testa
+5.-Ändra mapprättigheten för att ladda upp bilder
+-------------------------------------------------
+Nu är det snart klart, men du behöver ändra rättigheten på mappen "images"  
+och alla underkataloger för att kunna ladda upp bilder.
+>> Sätt rättigheten till: 777 
+
+
+6.-Klart att testa
 ------------------
 När alla inställningar är gjorda så gå till första sidan och initiera databaserna.  
 Följ sedan instruktionerna på sidan.  

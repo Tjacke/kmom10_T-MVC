@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'site';
+$db['default']['hostname'] = 'blu-ray.student.bth.se';
+$db['default']['username'] = 'haas13';
+$db['default']['password'] = 'S06[o!5B';
+$db['default']['database'] = 'haas13';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
